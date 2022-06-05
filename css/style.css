@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+body{
+    font-family: "メイリオ";
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+#logo{
+    margin: 20px auto;
+    display: block;
+
+}
+
+#button{
+    height: 150px;
+    width: 300px;
+    font-size: 100px;
+    display: block;
+    margin: 20px auto;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+}
+#button:hover {
+    background: #1d49aa;
+  }
+#button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+  }
+
+#note{
+    text-align: center;
+    font-size: 30px;
+}
+
+#result{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 15% 15% 15% 15% 15%;
+}
+
+#res0, #res1, #res2, #res3, #res4, #res5, #res6, #res7, #res8, #res9{
+    border: #cbd6ee solid 1px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    overflow: auto;
+    padding: 10px 10px 10px 0px;
+    margin: 5px;
+}
+
+#res0::-webkit-scrollbar{
+    width: 15px;
+} 
+#res0::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background: #f2f2f2;
+  }
+#res0::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background:#09C9D9;
+  } 
+#res1::-webkit-scrollbar{
+    width: 15px;
+} 
+#res1::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background: #f2f2f2;
+  }
+#res1::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background:#09C9D9;
+  }
+
+#res2::-webkit-scrollbar{
+    width: 15px;
+} 
+#res2::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background: #f2f2f2;
+  }
+#res2::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background:#09C9D9;
+  }
+#res3::-webkit-scrollbar{
+    width: 15px;
+} 
+#res3::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background: #f2f2f2;
+  }
+#res3::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background:#09C9D9;
+  }
+#res4::-webkit-scrollbar{
+    width: 15px;
+} 
+#res4::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background: #f2f2f2;
+}
+#res4::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background:#09C9D9;
+  }
+#res5::-webkit-scrollbar{
+    width: 15px;
+} 
+#res5::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background: #f2f2f2;
+  }
+#res5::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background:#09C9D9;
+  }
+#res6::-webkit-scrollbar{
+    width: 15px;
+} 
+#res6::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background: #f2f2f2;
+  }
+#res6::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background:#09C9D9;
+  }
+#res7::-webkit-scrollbar{
+    width: 15px;
+} 
+#res7::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background: #f2f2f2;
+  }
+#res7::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background:#09C9D9;
+  }
+#res8::-webkit-scrollbar{
+    width: 15px;
+} 
+#res8::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background: #f2f2f2;
+  }
+#res8::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background:#09C9D9;
+  }
+#res9::-webkit-scrollbar{
+    width: 15px;
+} 
+#res9::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background: #f2f2f2;
+  }
+#res9::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background:#09C9D9;
+  }
+
+
+li { list-style:none; }
+#res0 li:before { content:"⓪"; }
+#res1 li:before { content:"①"; }
+#res2 li:before { content:"②"; }
+#res3 li:before { content:"③"; }
+#res4 li:before { content:"④"; }
+#res5 li:before { content:"⑤"; }
+#res6 li:before { content:"⑥"; }
+#res7 li:before { content:"⑦"; }
+#res8 li:before { content:"⑧"; }
+#res9 li:before { content:"⑨"; }
+
+.backTop {
+    height: 70px;
+    width: 80px;
+    position: fixed;
+    bottom: 6vh;
+    right: -80px;
+    border: none;
+    background: #383838;
+    opacity: 0.6;
+    border-radius: 5px 0 0 5px;
+    transition-duration:300ms;
+}
+.arrow {
+        box-sizing: border-box;
+        position: absolute;
+        top: 20px;
+        width: 30px;
+        height: 30px;
+        border-top: solid 7px white;
+        border-left: solid 7px white;
+        transform:rotate(45deg);
+        transform-origin: left top;
+    }
+    
+
+.to-top {
+    right: 0px;
+}
